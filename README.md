@@ -212,4 +212,4 @@ Il est possible de le réinitialiser en utilisant le **mode rescue**. Voici les 
 ```bash
  e2fsck -f /dev/sdaX
 ```
--**Documentation** : https://www.baeldung.com/linux/resize-partitions , https://gparted.org/display-doc.php?name=moving-space-between-partitions
+- **Documentation** : https://www.baeldung.com/linux/resize-partitions , https://gparted.org/display-doc.php?name=moving-space-between-partitions
