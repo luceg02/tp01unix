@@ -1,7 +1,7 @@
 # TP UNIX 
 *Luce Giovannetti*
 ## 1: Installation
-Ce TP présente l'installation d'un serveur Linux minimal avec Debian en utilisant VirtualBox. Après avoir téléchargé l'image mini.iso de Debian stable, l'installation commence par configurer le clavier, le réseau, et le partitionnement manuel en quatre partitions (racine, tmp, var/log, et swap). L'installateur configure ensuite le système de base et le gestionnaire de démarrage Grub.
+Ce TP présente l'installation d'un serveur Linux minimal avec Debian en utilisant VirtualBox. Après avoir téléchargé l'image mini.iso de Debian stable(https://ftp.lip6.fr/pub/linux/distributions/debian/dists/Debian12.7/main/installer-amd64/current/images/netboot/). Ensuite, l'installation commence par configurer le clavier, le réseau, et le partitionnement manuel en quatre partitions (racine, tmp, var/log, et swap). L'installateur configure ensuite le système de base et le gestionnaire de démarrage Grub.
 ## 2: Post-installation
 #### 2.1 Configuration SSH
 Après l'installation, je me connecte en tant que root à la machine Debian pour configurer le service SSH. Avec les commandes `apt search` et `apt install` j'installe les paquets nécessaires. Je modifie la configuration SSH afin de permettre les connexions distantes pour le compte root en utilisant un mot de passe.
