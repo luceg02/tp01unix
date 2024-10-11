@@ -6,7 +6,8 @@ Ce TP présente l'installation d'un serveur Linux minimal avec Debian en utilisa
 #### 2.1 Configuration SSH
 Après l'installation, je me connecte en tant que root à la machine Debian pour configurer le service SSH. Avec les commandes `apt search` et `apt install` j'installe les paquets nécessaires. Je modifie la configuration SSH afin de permettre les connexions distantes pour le compte root en utilisant un mot de passe.
 #### 2.2 Connexion
-Pour la connexion, j'ai utilise la commande
+Au début, j'avais configuré ma machine virtuelle avec un réseau NAT et une redirection de port. Cependant, comme je n'arrivais pas à me connecter, j'ai modifié la configuration en utilisant un réseau en mode Bridge. Initialement, l'adresse IP obtenue ne fonctionnait pas, alors j'ai essaye de changer de connexion et utiliser le routeur wifi de mon smartphone. Cela m'a attribué une nouvelle adresse IP, grâce à laquelle j'ai finalement pu me connecter.
+Pour établir la connexion, j'ai utilisé une commande:
 ```bash
 ssh root@192.168.116.226
   ```
